@@ -1,11 +1,8 @@
-from .common import *
+from ..settings import *
 
 DEBUG = True
 
 SECRET_KEY = 'u3b7-ti3qfmje1r@_fta^&9ygfw)j3$hc8)fa-9-*-v5zdu6vb'
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
