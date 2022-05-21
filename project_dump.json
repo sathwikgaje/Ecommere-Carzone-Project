@@ -1,0 +1,759 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$JRCG8o28JWZztdGSqOvoxC$y5pPe7UfxLVS1l2XaUQRbL00PcT3sHe6AjmqQpUeNp4=",
+        "last_login": "2022-05-21T06:25:05.850Z",
+        "is_superuser": true,
+        "username": "sathwik",
+        "first_name": "sathwik",
+        "last_name": "gaje",
+        "email": "sathwik@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-19T11:47:26Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lf6on5sxxjtx4y2jqtjauknkvsr4hh34",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBKKcO4dO8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3EWgzj9boHig-sO0p3qrcnY6rrMQe6KPGiX15b4eTncv4NCvXxrsC4B6KxH6xAnDmSjM44ALbEzFPMYlQJKgBGV06hoyGMwRJPmhEq8P9RJN7s:1nred4:DE1OKZv83I5_u-f5trDNOFCNlSi5a0RnglKzNyyqp6U",
+        "expire_date": "2022-06-02T11:47:42.018Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ul8wmv40xua7pg51z499ibtpbh3uohcs",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBKKcO4dO8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3EWgzj9boHig-sO0p3qrcnY6rrMQe6KPGiX15b4eTncv4NCvXxrsC4B6KxH6xAnDmSjM44ALbEzFPMYlQJKgBGV06hoyGMwRJPmhEq8P9RJN7s:1nsIXx:uf4jqFRggVIzwBV-W1lahEysieoTOHV6VhLtIKERdp8",
+        "expire_date": "2022-06-04T06:25:05.852Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Rathan",
+        "last_name": "Kumar",
+        "designation": "Creative Director",
+        "photo": "photos/2022/05/20/avatar-12.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-05-20T17:31:43.943Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2022/05/21/avatar-3.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-05-21T06:27:29.046Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2022/05/21/avatar-10.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-05-21T06:28:25.079Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Co-Founder",
+        "photo": "photos/2022/05/21/avatar-2.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-05-21T06:29:12.709Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 7,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2022/05/21/avatar-9.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2022-05-21T06:30:08.845Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Texas",
+        "colour": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a>&nbsp;The 488 was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8_Tributo\" title=\"Ferrari F8 Tributo\">F8 Tributo</a>&nbsp;in February 2019.</p>",
+        "car_photo": "photos/2022/05/19/1902536891.jpg",
+        "car_photo_1": "photos/2022/05/19/1902536917.jpg",
+        "car_photo_2": "photos/2022/05/19/1902537043.jpg",
+        "car_photo_3": "photos/2022/05/19/1902537077.jpg",
+        "car_photo_4": "photos/2022/05/19/1902537082.jpg",
+        "features": "Cruise Control,Air Conditioning,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop",
+        "body_style": "SUV",
+        "interior": "Grey",
+        "engine": "3.4L Mid Engine V6",
+        "transmission": "Automatic",
+        "miles": 2500,
+        "door": "2",
+        "passengers": 2,
+        "vin_no": "WP0AB2E81EK1788547",
+        "millage": 300,
+        "feul_type": "Petrol",
+        "no_of_owners": 1,
+        "is_featured": true,
+        "created_date": "2022-05-19T17:17:54Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "colour": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Sharing its underpinnings with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Fusion_(Americas)\" title=\"Ford Fusion (Americas)\">Ford Fusion sedan</a>, Ford has also produced the model line as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Lincoln_MKX\" title=\"Lincoln MKX\">Lincoln MKX</a>&nbsp;(since 2019, the Lincoln Nautilus); the first generation was also produced as the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mazda_CX-9\" title=\"Mazda CX-9\">Mazda CX-9</a>. The second generation is also marketed by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_of_Europe\" title=\"Ford of Europe\">Ford of Europe</a>, positioned between the Kuga (Escape) and the Explorer PHEV.</p>\r\n\r\n<p>All production of the Ford Edge is sourced from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company_of_Canada\" title=\"Ford Motor Company of Canada\">Ford of Canada</a>&nbsp;at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Oakville_Assembly\" title=\"Oakville Assembly\">Oakville Assembly</a>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Oakville,_Ontario\" title=\"Oakville, Ontario\">Oakville, Ontario</a>) alongside the Nautilus.</p>",
+        "car_photo": "photos/2022/05/20/1901478607.jpg",
+        "car_photo_1": "photos/2022/05/20/1901478618.jpg",
+        "car_photo_2": "photos/2022/05/20/1901478646.jpg",
+        "car_photo_3": "photos/2022/05/20/1901478672.jpg",
+        "car_photo_4": "photos/2022/05/20/1901478687.jpg",
+        "features": "Airbags,Air Conditioning,Seat Heating,Alarm System,Power Steering,Reversing Camera,Direct Fuel Injection,Bluetooth Handset",
+        "body_style": "Sport",
+        "interior": "Grey",
+        "engine": "3.4L Mid Engine V7",
+        "transmission": "Automatic",
+        "miles": 15000,
+        "door": "5",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EK0988547",
+        "millage": 5,
+        "feul_type": "Petrol",
+        "no_of_owners": 2,
+        "is_featured": true,
+        "created_date": "2022-05-20T08:24:25Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "TX",
+        "city": "Dallas",
+        "colour": "Black",
+        "model": "F-250 Super Duty",
+        "year": 2017,
+        "condition": "Used",
+        "price": 15000,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford F-150, the Super Duty trucks are an expansion of the Ford F-Series range, from the F-250 to the F-550. Rather than adapting lighter-duty trucks for heavier use, Super Duty trucks have been designed as a dedicated variant of the Ford F-Series, including pickup trucks and chassis cab vehicles; the Ford F-450 is the largest pickup truck offered for sale in North America.</p>\r\n\r\n<p>Currently in their fourth generation, Super Duty trucks use a separate chassis from the F-150, including heavier-duty frame and chassis components, which allows for heavier payloads and towing capabilities. With a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Gross_vehicle_weight_rating\" title=\"Gross vehicle weight rating\">GVWR</a>&nbsp;over 8,500&nbsp;lb (3,900&nbsp;kg), Super Duty pickups are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">Class 2 and 3</a>&nbsp;trucks; chassis cab trucks are offered in Class 4 and 5 sizes. The model line also offers&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Power_Stroke_engine\" title=\"Ford Power Stroke engine\">Ford PowerStroke</a>&nbsp;V8 diesel engines as an option.</p>\r\n\r\n<p>Alongside pickup trucks and chassis cabs, the Super Duty line includes medium-duty F-Series trucks (F-650 and F-750); the Super Duty pickup truck also served as the basis for the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Excursion\" title=\"Ford Excursion\">Ford Excursion</a>&nbsp;full-sized SUV.</p>\r\n\r\n<p>Ford F-250 to F-550 Super Duty trucks are assembled at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kentucky_Truck_Assembly\" title=\"Kentucky Truck Assembly\">Kentucky Truck Plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Louisville,_Kentucky\" title=\"Louisville, Kentucky\">Louisville, Kentucky</a>, while medium-duty&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-650\" title=\"Ford F-650\">F-650 and F-750s</a>&nbsp;are assembled at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ohio_Assembly\" title=\"\">Ohio Assembly</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Avon_Lake,_Ohio\" title=\"Avon Lake, Ohio\">Avon Lake, Ohio</a>. Prior to 2016, medium-duty trucks were assembled in Mexico under the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Navistar_International#Blue_Diamond_Truck\" title=\"Navistar International\">Blue Diamond Truck</a>&nbsp;joint venture with Navistar International.</p>",
+        "car_photo": "photos/2022/05/20/1894300894.jpg",
+        "car_photo_1": "photos/2022/05/20/1894300905.jpg",
+        "car_photo_2": "photos/2022/05/20/1894300920.jpg",
+        "car_photo_3": "photos/2022/05/20/1900155012.jpg",
+        "car_photo_4": "photos/2022/05/20/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sport",
+        "interior": "Gery",
+        "engine": "3.4L Mid Engine V7",
+        "transmission": "Automatic",
+        "miles": 2000,
+        "door": "4",
+        "passengers": 4,
+        "vin_no": "WP0AB2E81EK0858547",
+        "millage": 20,
+        "feul_type": "Petrol",
+        "no_of_owners": 1,
+        "is_featured": true,
+        "created_date": "2022-05-20T22:52:03Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "TX",
+        "city": "Dallas",
+        "colour": "Black",
+        "model": "Jaguar F-PACE",
+        "year": 2018,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_executive_car\" title=\"Compact executive car\">compact luxury</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automaker\" title=\"Automaker\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_American_International_Auto_Show#2015\" title=\"North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany#2015\" title=\"International Motor Show Germany\">International Motor Show Germany</a>&nbsp;in Frankfurt in September 2015.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a>&nbsp;The design of the F-Pace is based on the 2013&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a>&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a></p>\r\n\r\n<p>The F-Pace is built at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Solihull_plant\" title=\"Solihull plant\">Solihull plant</a>&nbsp;along with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Range_Rover_Velar\" title=\"Range Rover Velar\">Range Rover Velar</a>&nbsp;and employs an additional 1,300 workers.</p>",
+        "car_photo": "photos/2022/05/21/1902932503.jpg",
+        "car_photo_1": "photos/2022/05/21/1902932514.jpg",
+        "car_photo_2": "photos/2022/05/21/1902932528.jpg",
+        "car_photo_3": "photos/2022/05/21/1902932542.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Airbags,Air Conditioning,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sport",
+        "interior": "Gery",
+        "engine": "3.4L Mid Engine V6",
+        "transmission": "Automatic",
+        "miles": 2000,
+        "door": "4",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EK0858547",
+        "millage": 5,
+        "feul_type": "Disel",
+        "no_of_owners": 1,
+        "is_featured": false,
+        "created_date": "2022-05-21T12:00:36Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "TN",
+        "city": "Dallas",
+        "colour": "White",
+        "model": "Toyota 4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact</a>, later a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_sport_utility_vehicle\" title=\"Mid-size sport utility vehicle\">mid-size sport utility vehicle</a>&nbsp;produced by the Japanese manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>&nbsp;and sold throughout the world from 1984 to the present. In Japan, it is known as the&nbsp;<strong>Toyota Hilux Surf</strong>&nbsp;&nbsp;which was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact SUV</a>&nbsp;and little more than a Toyota pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara_plant\" title=\"Tahara plant\">plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara,_Aichi\" title=\"Tahara, Aichi\">Tahara, Aichi</a>, or at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hino_Motors\" title=\"Hino Motors\">Hino Motors</a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hamura\" title=\"Hamura\">Hamura</a>.</p>\r\n\r\n<p>The name &quot;4Runner&quot; was created by a copywriter named Robert Nathan who was working for the advertising agency&nbsp;<a href=\"https://en.wikipedia.org/wiki/Saatchi_%26_Saatchi\" title=\"Saatchi &amp; Saatchi\">Saatchi &amp; Saatchi</a>. The agency held contests to invent new vehicle names before the introduction of new Toyota models. The name 4Runner was created as a play on the term &quot;forerunner,&quot; since the sport utility vehicle was the first of its kind for Toyota with an emphasis on its 4x4 capability and seating for four.[<em><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\">citation needed</a></em>]</p>\r\n\r\n<p>For some markets, the Hilux Surf was replaced in 2005 by the similar&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Fortuner\" title=\"Toyota Fortuner\">Fortuner</a>, which is based on the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;platform.</p>\r\n\r\n<p>As of 2021, the 4Runner is sold in the Bahamas, Bolivia, Canada, Chile, Colombia, Costa Rica, El Salvador, Guatemala, Panama, Peru, the United States and Venezuela.</p>\r\n\r\n<p>The 4Runner came in at number five in a 2019 study by&nbsp;<a href=\"https://en.wikipedia.org/wiki/ISeeCars.com\" title=\"ISeeCars.com\">iSeeCars.com</a>&nbsp;ranking the longest-lasting vehicles in the US. The 4Runner had 3.9&nbsp;percent of vehicles over 200,000 miles (320,000&nbsp;km), according to the study.</p>",
+        "car_photo": "photos/2022/05/21/1893633875.jpg",
+        "car_photo_1": "photos/2022/05/21/1893633879.jpg",
+        "car_photo_2": "photos/2022/05/21/1893633884.jpg",
+        "car_photo_3": "photos/2022/05/21/1896836883.jpg",
+        "car_photo_4": "photos/2022/05/21/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,ParkAssist,Power Steering,Reversing Camera,Auto Start/Stop,Bluetooth Handset",
+        "body_style": "Sport",
+        "interior": "Gery",
+        "engine": "3.4L Mid Engine V6",
+        "transmission": "Automatic",
+        "miles": 15000,
+        "door": "4",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EK08585485",
+        "millage": 10,
+        "feul_type": "Petrol",
+        "no_of_owners": 1,
+        "is_featured": false,
+        "created_date": "2022-05-21T12:03:08Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "TX",
+        "city": "Dallas",
+        "colour": "White",
+        "model": "Toyota Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;is a series of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">compact cars</a>&nbsp;(formerly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact</a>) manufactured and marketed globally by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Motor_Corporation\" title=\"Toyota Motor Corporation\">Toyota Motor Corporation</a>. Introduced in 1966, the Corolla was the best-selling car worldwide by 1974 and has been one of the best-selling cars in the world since then. In 1997, the Corolla became the&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_best-selling_automobiles\" title=\"List of best-selling automobiles\">best selling nameplate in the world</a>, surpassing the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Beetle\" title=\"Volkswagen Beetle\">Volkswagen Beetle</a>.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-1\">[1]</a>&nbsp;Toyota reached the milestone of 50 million Corollas sold over twelve generations in 2021.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-50million-2\">[2]</a>&nbsp;The series has undergone several major redesigns.</p>\r\n\r\n<p>The name&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Corolla_(headgear)\" title=\"Corolla (headgear)\">Corolla</a></em>&nbsp;is part of Toyota&#39;s naming tradition of using names derived from the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Crown\" title=\"Toyota Crown\">Toyota Crown</a>&nbsp;for sedans, with&nbsp;<em>&quot;<a href=\"https://en.wiktionary.org/wiki/corolla\" title=\"wikt:corolla\">corolla</a>&quot;</em>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Latin\" title=\"Latin\">Latin</a>&nbsp;for &quot;small crown&quot;.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-3\">[3]</a>&nbsp;The Corolla has always been exclusive in Japan to&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla_Store\" title=\"Toyota Corolla Store\">Toyota Corolla Store</a></em>&nbsp;locations, and manufactured in Japan with a twin, called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Sprinter\" title=\"Toyota Sprinter\">Toyota Sprinter</a>&nbsp;until 2000. From 2006 to 2018 in Japan and much of the world, and from 2018 to 2020 in Taiwan, the hatchback companion had been called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Auris\" title=\"Toyota Auris\">Toyota Auris</a>.</p>\r\n\r\n<p>Early models were mostly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear-wheel_drive\" title=\"Rear-wheel drive\">rear-wheel drive</a>, while later models have been&nbsp;<a href=\"https://en.wikipedia.org/wiki/Front-wheel_drive\" title=\"Front-wheel drive\">front-wheel drive</a>.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Four-wheel_drive\" title=\"Four-wheel drive\">Four-wheel drive</a>&nbsp;versions have also been produced. The Corolla&#39;s traditional competitors have been the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sunny\" title=\"Nissan Sunny\">Nissan Sunny</a>, introduced the same year as the Corolla in Japan and the later&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sentra\" title=\"\">Nissan Sentra</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sylphy\" title=\"Nissan Sylphy\">Nissan Sylphy</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Honda_Civic\" title=\"Honda Civic\">Honda Civic</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mitsubishi_Lancer\" title=\"Mitsubishi Lancer\">Mitsubishi Lancer</a>. The Corolla&#39;s chassis designation code is &quot;E&quot;, as described in Toyota&#39;s chassis and engine codes.</p>",
+        "car_photo": "photos/2022/05/21/1900893299.jpg",
+        "car_photo_1": "photos/2022/05/21/1900893311.jpg",
+        "car_photo_2": "photos/2022/05/21/1900893319.jpg",
+        "car_photo_3": "photos/2022/05/21/1900893329.jpg",
+        "car_photo_4": "photos/2022/05/21/1900893391.jpg",
+        "features": "Audio Interface,Seat Heating,Alarm System,ParkAssist,Power Steering,Reversing Camera,Direct Fuel Injection,Wind Deflector",
+        "body_style": "Sport",
+        "interior": "Gery",
+        "engine": "3.4L Mid Engine V7",
+        "transmission": "Automatic",
+        "miles": 20000,
+        "door": "4",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EK08585465",
+        "millage": 6,
+        "feul_type": "Disel",
+        "no_of_owners": 1,
+        "is_featured": false,
+        "created_date": "2022-05-21T12:05:10Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Rathan",
+        "last_name": "Kumar",
+        "car_id": 3,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2017 Ford F-250 Super Duty",
+        "city": "Dallas",
+        "state": "Tellas",
+        "email": "mygths@byom.de",
+        "phone": "",
+        "message": "",
+        "user_id": 0,
+        "created_date": "2022-05-21T10:53:10.696Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "sathwik",
+        "last_name": "gaje",
+        "car_id": 2,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2017 Ford Edge",
+        "city": "Dallas",
+        "state": "Tellas",
+        "email": "sathwik@gmail.com",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "created_date": "2022-05-21T10:54:31.138Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "sathwik",
+        "last_name": "gaje",
+        "car_id": 1,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Dallas",
+        "state": "Tellas",
+        "email": "sathwik@gmail.com",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "created_date": "2022-05-21T11:06:04.481Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-05-19T11:50:38.791Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-05-20T02:58:06.938Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-05-20T16:59:51.102Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Rathan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-05-20T17:14:35.995Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Rathan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Google plus link\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-05-20T17:15:57.557Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Rathan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-05-20T17:17:36.598Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Rathan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-05-20T17:18:34.428Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Rathan",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-05-20T17:18:52.605Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Rathan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-05-20T17:25:15.392Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-05-20T17:30:07.092Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Rathan",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-05-20T17:31:43.947Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Rathan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-05-21T05:30:06.272Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "sathwik",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-05-21T06:25:19.814Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "sathwik.gaje@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-05-21T06:27:29.048Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-05-21T06:28:25.083Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "Stone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-05-21T06:29:12.713Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-05-21T06:30:08.847Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "7",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-05-21T06:33:02.727Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-05-21T06:35:08.770Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-05-21T06:36:51.718Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-05-21T06:45:09.601Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-05-21T06:45:45.818Z",
+        "user": [
+            "sathwik"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+}
+]

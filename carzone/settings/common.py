@@ -11,21 +11,15 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from pathlib import Path
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'u3b7-ti3qfmje1r@_fta^&9ygfw)j3$hc8)fa-9-*-v5zdu6vb'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -48,6 +42,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -75,20 +70,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'carzone.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'carzone_db',
-        'USER' : 'postgres',
-        'PASSWORD' : 'sahruday@1',
-        'HOST' : 'localhost',
-    }
-}
 
 
 # Password validation
@@ -141,4 +122,32 @@ MEDIA_URL = '/media/'
 from django.contrib.messages import constants as messages
 MESSAGE_TAG = {
     messages.ERROR : 'danger',
+}
+
+#Logging
+LOGGING = {
+    'version' : 1,
+    'disable_existing_loggers' : False,
+    'handlers' : {
+        'console' : {
+            'class' : 'logging.StreamHandler'
+        },
+        'file' : {
+            'class' : 'logging.FileHandler',
+            'filename' : 'general.log',
+            'formatter' : 'verbose'
+        }
+    },
+    'loggers' : {
+        '' : {
+            'handlers' : ['console','file'],
+            'level' : os.environ.get('DJANGO_LOG_LEVEL','INFO')
+        }
+    },
+    'formatters' : {
+        'verbose' : {
+            'format' : '{asctime} ({levelname}) - {name} - {message}',
+            'style' : '{'
+        }
+    }
 }
