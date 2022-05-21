@@ -58,7 +58,7 @@ DEBUG = False
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ecommerce-carzone-project.herokuapp.com']
 
 DATABASES = {
     'default' : dj_database_url.config()
