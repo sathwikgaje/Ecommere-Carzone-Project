@@ -3,6 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib import auth
 from django.contrib.auth import logout
+from contacts.models import Contact
+from django.contrib.auth.decorators import login_required
 
 def login(request):
     if request.method == 'POST':
@@ -50,8 +52,13 @@ def register(request):
     else:
         return render(request,'accounts/register.html') 
 
+@login_required(login_url='login')
 def dashboard(request):
-    return render(request,'accounts/dashboard.html') 
+    user_inquiry  = Contact.objects.order_by('-created_date').filter(user_id=request.user.id)
+    data = {
+        'inquiry' : user_inquiry
+    }
+    return render(request,'accounts/dashboard.html',data) 
 
 def logout_view(request):
     logout(request)

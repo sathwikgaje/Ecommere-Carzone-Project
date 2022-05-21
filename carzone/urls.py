@@ -24,5 +24,5 @@ urlpatterns = [
     path('',include('pages.urls')),
     path('cars/',include('cars.urls')),
     path('accounts/',include('accounts.urls')),
-    # path('logout/', auth_views.LogoutView.as_view(template_name='pages/home.html'),name = 'Logout Page'),
+    path('contacts/',include('contacts.urls')),
 ] + static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)

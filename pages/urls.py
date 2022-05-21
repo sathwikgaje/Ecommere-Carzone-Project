@@ -5,5 +5,4 @@ urlpatterns = [
     path('',views.view,name='home'),
     path('about',views.about),
     path('services',views.services),
-    path('contact',views.contact),
 ]
